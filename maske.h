@@ -42,7 +42,7 @@ namespace maske {
     };
 
     template<std::size_t N>
-    struct Permutator {
+    struct Permutations {
         static_assert(0 < N && N <= core::BITS / 2);
 
         template <typename F, std::size_t I>
